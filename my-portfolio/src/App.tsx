@@ -1,16 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { MenuHorizontal } from './domain/components/basics/menuHorizontal';
 
 const App: React.FC = () => {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <div>
-          Portfolio de María Pereda
+        <div className="logo">
+          logo
         </div>
+        <MenuHorizontal/>
       </header>
+      <section className="App-Body">
+
+      </section>
+      <footer className="footer">Portfolio de María Pereda</footer>
     </div>
   );
 }
