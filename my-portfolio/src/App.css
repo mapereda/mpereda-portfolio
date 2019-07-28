@@ -16,7 +16,8 @@
   justify-content: space-between;
   font-size: 1rem;
   color: #636363;
-  border-bottom: solid 1px #e9e9e9;
+  background: #e9e9e98f;
+  border-bottom: solid 1px #c985d6;
 }
 
 .App-link {
@@ -39,11 +40,40 @@
 
 .CoverPage{
   width: 100vw;
-  height: 60vh;
-  background: #272727;
-  color: white;
+  min-width: 60vh;
+  padding: 4vh 12vw;
+  display: grid;
+  grid-template-columns: 22vw 2vw auto;
+  grid-template-rows: 6vh 6vh auto;
+  align-content: center;
+  background: #e9e9e98f;
+  color: #636363;
 }
 
+.ProfileImg{
+  grid-column: 1/2;
+  grid-row: 1/4;
+}
+
+.ProfileImg .img{
+  width: 100%;
+  height: auto;
+}
+
+.CoverPage .title{
+  grid-column: 3/4;
+  grid-row: 1/2;
+}
+
+.CoverPage .subtitle{
+  grid-column: 3/4;
+  grid-row: 2/3;
+}
+
+.CoverPage .description{
+  grid-column: 3/4;
+  grid-row: 3/4;
+}
 
 .footer{
   width: 100vw;

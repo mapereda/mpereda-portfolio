@@ -15,8 +15,11 @@ const App: React.FC = () => {
       </header>
       <section className="App-Body">
         <ContainerBody>
-          <CoverPage title="María Pereda" subtitle="UI/UX Engineer"/>
-          
+          <CoverPage 
+              title="María Pereda" 
+              subtitle="UI/UX Engineer" 
+              profileImg={`${process.env.PUBLIC_URL}/img/ProfileImg.png`}/>
+
         </ContainerBody>
       </section>
       <footer className="footer">Portfolio de María Pereda</footer>
