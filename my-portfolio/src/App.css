@@ -6,7 +6,6 @@
 
 .App {
   width: 100vw;
-  height: 100vh;
 }
 
 .App-header {
@@ -21,8 +20,30 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #a8a8a8;
 }
+
+.logo{
+  width: 14vw;
+  padding: 0.2rem 1rem;
+}
+
+.logo img{
+  width: 100%;
+  height: auto;
+}
+
+.ContainerBody{
+  width: 100vw;
+}
+
+.CoverPage{
+  width: 100vw;
+  height: 60vh;
+  background: #272727;
+  color: white;
+}
+
 
 .footer{
   width: 100vw;
