@@ -2,7 +2,10 @@ import React from 'react';
 import './App.css';
 import { MenuHorizontal } from './domain/components/basics/menuHorizontal';
 import { ContainerBody } from './domain/components/container/containerBody';
-import { CoverPage } from './app/components/coverPage'
+import { Home } from './app/views/Home';
+import { Portfolio } from './app/views/Portfolio'
+import { About } from './app/views/About';
+
 
 const App: React.FC = () => {
   return (
@@ -15,11 +18,9 @@ const App: React.FC = () => {
       </header>
       <section className="App-Body">
         <ContainerBody>
-          <CoverPage 
-              title="María Pereda" 
-              subtitle="UI/UX Engineer" 
-              profileImg={`${process.env.PUBLIC_URL}/img/ProfileImg.png`}/>
-
+          <Home/>
+          <Portfolio title="My Works"/>
+          <About/>
         </ContainerBody>
       </section>
       <footer className="footer">Portfolio de María Pereda</footer>
