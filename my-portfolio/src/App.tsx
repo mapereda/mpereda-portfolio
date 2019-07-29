@@ -23,7 +23,7 @@ const App: React.FC = () => {
           <About/>
         </ContainerBody>
       </section>
-      <footer className="footer">Portfolio de María Pereda</footer>
+      <footer className="footer">Designed and coded by María Pereda Escudero</footer>
     </div>
   );
 }

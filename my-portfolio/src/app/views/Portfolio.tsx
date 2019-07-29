@@ -12,9 +12,9 @@ export class Portfolio extends React.Component<IPortfolio>{
     render(){
 
         let works=[
-            {id:1,title:"Work1",description:"lorem ipsum 1"},
-            {id:2,title:"Work2",description:"lorem ipsum 2"},
-            {id:3,title:"Work3",description:"lorem ipsum 3"},
+            {id:1,title:"Psiconvence desktop",description:"Responsive website developed with WordPress (Divi Theme) for desktop",img:`${process.env.PUBLIC_URL}/img/PsiconvenceDesktop.png`},
+            {id:2,title:"Psiconvence mobile",description:"Responsive website developed with WordPress (Divi Theme) for mobile",img:`${process.env.PUBLIC_URL}/img/PsiconvenceMovil.png`},
+            {id:3,title:"Psiconvence mobile",description:"Psiconvence prototype designed with Adobe XD",img:`${process.env.PUBLIC_URL}/img/PsiconvencePrototype.png`},
         ]
 
         return <div className="Portfolio">
@@ -24,7 +24,8 @@ export class Portfolio extends React.Component<IPortfolio>{
                 works.map(w=>{
                         return <Work key={w.id} className="workCard" 
                                      title={w.title}
-                                     description={w.description}/>
+                                     description={w.description}
+                                     img={w.img}/>
                     })
             }
         </div>
