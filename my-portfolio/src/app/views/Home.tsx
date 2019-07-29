@@ -7,7 +7,8 @@ export class Home extends React.Component{
             <CoverPage 
               title="María Pereda" 
               subtitle="UI/UX Engineer" 
-              profileImg={`${process.env.PUBLIC_URL}/img/ProfileImg.png`}/>
+              profileImg={`${process.env.PUBLIC_URL}/img/ProfileImg.png`}
+              description="I'm an UX and UI Designer and Front-End Developer based in Madrid. I studied Fine Arts degree and Graphic and Web Design. I'm interested in the synthesis of Design and Development, also in illustration, video and photography. "/>
           
         </div>
     }

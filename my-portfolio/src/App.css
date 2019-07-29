@@ -50,18 +50,18 @@
 }
 
 .CoverPage{
-  width: 80%;  
+  width: 60%;  
   display: grid;
-  grid-template-columns: 22vw 2vw auto;
-  grid-template-rows: 6vh 6vh auto;
+  grid-template-columns: auto 1vw 24vw;
+  grid-template-rows: 6vh 8vh 4vh auto;
   align-content: center;
-  
+  text-align: right;
   color: #636363;
 }
 
 .ProfileImg{
-  grid-column: 1/2;
-  grid-row: 1/4;
+  grid-column: 3/4;
+  grid-row: 1/5;
 }
 
 .ProfileImg .img{
@@ -70,18 +70,18 @@
 }
 
 .CoverPage .title{
-  grid-column: 3/4;
-  grid-row: 1/2;
-}
-
-.CoverPage .subtitle{
-  grid-column: 3/4;
+  grid-column: 1/2;
   grid-row: 2/3;
 }
 
-.CoverPage .description{
-  grid-column: 3/4;
+.CoverPage .subtitle{
+  grid-column: 1/2;
   grid-row: 3/4;
+}
+
+.CoverPage .description{
+  grid-column: 1/2;
+  grid-row: 4/5;
 }
 
 

@@ -1,7 +1,7 @@
 import React from "react";
 import { IModelBase } from "../../domain/components/models/IModelBase";
 
-interface IWork extends IModelBase{
+export interface IWork extends IModelBase{
     title:string,
     description?:string,
     img?:string

@@ -19,7 +19,7 @@ const App: React.FC = () => {
       <section className="App-Body">
         <ContainerBody>
           <Home/>
-          <Portfolio title="My Works"/>
+          <Portfolio header="My Works"/>
           <About/>
         </ContainerBody>
       </section>
