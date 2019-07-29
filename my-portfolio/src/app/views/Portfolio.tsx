@@ -1,6 +1,7 @@
 import React from "react";
 import { IModelBase } from "../../domain/components/models/IModelBase";
 import { Work } from "../components/Work";
+import { Header } from "../../domain/components/basics/header"
 
 interface IPortfolio extends IModelBase{
     header:string,
@@ -17,7 +18,7 @@ export class Portfolio extends React.Component<IPortfolio>{
         ]
 
         return <div className="Portfolio">
-            <h4>{this.props.header}</h4>
+            <Header className="header">{this.props.header}</Header>
 
             {
                 works.map(w=>{
