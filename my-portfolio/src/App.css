@@ -108,6 +108,11 @@
   grid-template-rows: auto 14%;
 }
 
+.Work:hover{
+  opacity: .8;
+  cursor: pointer;
+}
+
 .Work img{
   width: 100%;
   height: auto;
