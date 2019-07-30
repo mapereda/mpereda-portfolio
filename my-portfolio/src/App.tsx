@@ -20,7 +20,8 @@ const App: React.FC = () => {
         <ContainerBody>
           <Home/>
           <Portfolio header="My Works"/>
-          <About/>
+          <About header="Who I am?" 
+                text="I'm an UX and UI Designer and Front-End Developer based in Madrid. I studied Fine Arts degree and Graphic and Web Design. I'm interested in the synthesis of Design and Development, also in illustration, video and photography."/>
         </ContainerBody>
       </section>
       <footer className="footer">Designed and coded by María Pereda Escudero</footer>
